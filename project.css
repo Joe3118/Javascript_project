@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 1000 px;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/6985003/pexels-photo-6985003.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    
+  }
+  
+  .form-container {
+    background-color: white;
+    opacity: 500; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-image: url(https://images.pexels.com/photos/29802520/pexels-photo-29802520/free-photo-of-abstract-light-gradient-pattern-in-soft-pastels.jpeg?auto=compress&cs=tinysrgb&w=600);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #e874b0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #79165f;
+  }
+  
